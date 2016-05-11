@@ -18,7 +18,7 @@ var add=document.getElementById('add-btn');
  */
 
 city.onblur=function() {
-	 var pattern= /^[\u4e00-\u9fa5|a-zA-Z]/;
+	 var pattern= /^[\u4e00-\u9fa5a-zA-Z]+$/;
 	 var flag=pattern.test(city.value.trim());
 	 if(!flag)
 	 {
