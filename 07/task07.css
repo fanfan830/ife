@@ -1,0 +1,512 @@
+body
+{
+	margin:0px;
+}
+ul li
+{
+	list-style-type: none;
+}
+#wrap
+{
+	min-width: 1280px;
+	background-color: #fff;
+}
+#header
+{
+	margin:0 60px;
+	overflow: hidden;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.logo_fl
+{
+	float: left;
+	font:21px 黑体;
+	color:#393a3a;
+	background: url("images/bookIcon.png") no-repeat 0% 50% ;
+	height: 57px;
+	line-height: 57px;
+	padding-left: 37px;
+
+}
+.nText
+{
+	margin-top: 0px;
+}
+/**
+ * nav
+ */
+#nav
+{
+	float: right;
+	font:14px 微软雅黑;
+	margin:0px; 
+	
+
+}
+#nav li
+{
+	float: left;
+	margin-right: 30px;
+	height: 57px;
+	width:65px;
+	line-height: 57px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li a
+{
+	color: #787b83;
+	text-decoration: none;
+}
+.onLine
+{
+	
+	border-bottom: 5px solid #e74f4d;
+}
+#nav li .colorR
+
+{
+	color: #e74f4d;
+}
+.loginIcon
+{
+	width: 14px;
+	height: 17px;
+	display:inline-block;
+	background: url("images/personIcon.png")  0px 0px ;
+	background-repeat: no-repeat;
+}
+/**
+ * banner
+ */
+#banner
+{
+	width: 100%;
+	height: 940px;
+}
+.bannerImg
+{
+	background: url("images/banPic.png") no-repeat;
+	background-size:cover;
+	opacity: 2;
+	height: 470px; 
+	padding: 220px 0 0 124px;
+	font:21px 微软雅黑;
+	color: #fff;
+}
+.bannerImg h3
+{
+	font-size: 60px;
+}
+.bannerImg  p
+{
+	margin:-30px 0 68px; 
+}
+.banButtton
+{
+	width:330px;
+	height: 65px;
+	background-color: #e74f4d;
+	border: 0px;
+	font:30px 微软雅黑;
+	color: #fff;
+	text-align: center;
+}
+.advantages
+{
+	width: 100%;
+	font:14px 黑体;
+	color:#767777;
+	overflow: hidden;
+}
+.first
+{
+	
+	background: url("images/adv1.png") no-repeat center 45px;
+}
+.second
+{
+	
+	background: url("images/adv2.png") no-repeat center 45px;
+}
+.third
+{
+	
+	background: url("images/adv3.png") no-repeat center 45px;
+}
+.forth
+{
+	
+	background: url("images/adv4.png") no-repeat center 45px;
+}
+.advP
+{
+	width: 25%;
+	padding: 133px 0px 86px;
+	text-align: center;
+}
+
+.advP>p
+{
+	height: 52px;
+	border-right: 2px solid #777777;
+}
+.advP .noBorder
+{
+	border-right:none;
+}
+/**
+ * event
+ */
+.newEvent
+{
+	background-color:#ededec;
+}
+.konwMore
+{
+	height:37px;
+	font:53.59px 黑体;
+	color:#a1a1a1;
+	padding: 200px 0 150px;
+	text-align: center;
+	background: url("images/bookBig.png") no-repeat center 90px;
+	
+}
+.searchCity
+{
+	height: 288px;
+	background: url("images/map.png") no-repeat;
+	background-size: cover;
+	font:21px 微软雅黑;
+	color: #fff;
+	text-align: center;
+	padding-top: 53px;
+}
+.shortLine
+{
+	height: 0;
+	width: 30px;
+	border-top: 3px solid #ffffff;
+	margin-top: -16.930px;
+	margin-bottom: 20px;
+
+}
+.font12
+{
+	font-size: 12px;
+}
+.searchCity form
+{
+	margin-top: 54px;
+}
+.select
+{
+
+	display: inline-block;
+	border: 3px solid #fff;
+	font:12px 微软雅黑;
+	color: #a8aaaa;
+	background-color: #fff;
+	margin-right: 28px;
+	position: relative;
+	
+}
+.select select
+{
+	width: 236px;
+	height: 34px;
+	color: #a8aaaa;
+	border:none;
+	-webkit-appearance:none;
+	 -moz-appearance:none;
+	appearance:none;
+}
+.select:after
+{
+	width: 18px;
+	height: 18px;
+	content:url(images/btnSelect.png);
+	background-size: cover;
+	position: absolute;
+    right: 6px;
+    top: 50%;
+    margin-top: -9px;
+}
+.select:hover
+{#bf4f48
+	border: 3px solid #bf4f48;
+} 
+.select option
+{
+	background:#e3e2e4;
+}
+.select option:hover
+{
+	background: #bf4f48;
+}
+.btnSearch
+{
+	width: 236px;
+    height: 39px;
+    border: 3px solid #be4f48;
+    background:#be4f48;
+    font:14px 微软雅黑;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.eventAlbum
+{
+	height: 610px;
+	width: 100%;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	webkit-align-items:center;
+	justify-content: center;
+	-webkit-justify-content:center;
+}
+.eventPic
+{
+	display: inline-block;
+	font:14px 微软雅黑;
+	color:#bcbdbd; 
+	text-align: center;
+	margin-right: 37px;
+}
+
+.eventPic img
+{
+	border: 1px solid #dadada;
+	padding:15px 7px; 
+	background: #fff;
+
+}
+.eventPic h3
+{
+	color: #000;
+
+}
+
+.le_spacing
+{
+	letter-spacing: 20px;
+}
+/**
+ * infor
+ */
+.newInfor
+{
+	width: 100%;
+	/* height: 1094px;
+ */	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	font: 12px 宋体;
+	color:#aaa;
+	line-height: 22px;
+	position: relative;
+	
+}
+.timePic
+{
+	width:calc(100% - 428px);
+}
+.timePic img
+{
+	width:100% ;
+	margin-bottom: -7px;
+}
+.slider
+{
+	width: 428px;
+}
+.black
+{
+	color: black;
+}
+.red
+{
+	color:#e4666a;
+}
+.btnInfor
+{
+	width: 103px;
+	height: 31px;
+	background: white;
+	color:#e4666a;
+	border: 1px solid #e4666a; 
+	margin-top: 51px;
+}
+.circle
+{
+	width: 86px;
+	margin: 20px auto;
+}
+.circle  li
+{
+	float: left;
+	margin-right: 10px;
+}
+.look
+{
+	width: calc((100% - 429px)/2);
+	height: 528px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: 21px 黑体;
+	color: #fff;
+	line-height: 40px;
+	
+
+}
+.bgred
+{
+	background:#e74f4d;
+
+}
+.colorB
+{
+	color: #323333;
+}
+.gray
+{
+	border-color:#aaaaaa;
+}
+/**
+ * volunteer
+ */
+.volunteer
+{
+	width: 100%;
+	height: 752px;
+	text-align: center;
+	font:12px 宋体;
+	color: #aaa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.volunteer h3
+{
+	font:21px 黑体;
+	color: #000;
+}
+table
+{
+	margin: 0 auto;
+	text-align: left;
+}
+table tr td
+{
+	width: 440px;
+}
+.volunteer h5
+{
+	font:14px 黑体;
+	color: #000;
+
+}
+.text
+{
+	width: 291px;
+	border:1px solid #f4f4f5;
+	background:#ededee;
+	margin: 0px 10px;
+	padding-left: 10px;
+}
+.text input
+{
+	border:none;
+	height: 35px;
+	width: 236px;
+	background:#ededee;
+
+}
+textarea
+{
+	height: 117px;
+	width: 632px;
+	border:1px solid #f4f4f5;
+	background:#ededee;
+	margin: 10px;
+}
+.btnS
+{
+	height: 39px;
+	width: 632px;
+	margin: 10px;
+	background:#ededee;
+	border: none;
+}
+.more
+{
+	text-align: right;
+	background: url("images/arrowMore.png") no-repeat 247px 6px;
+	padding-right: 155px;
+}
+/**
+ * contact
+ */
+.contact
+{
+	width: 100%;
+	height: 354px;
+	background:#33363f;
+	font: 21px 黑体;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.contact p
+{
+	font: 12px 宋体;
+	line-height: 22px;
+}
+.email
+{
+	width: 431px;
+	height: 41px;
+	border: none;
+	padding-left: 10px;
+	
+}
+.btnE
+{
+	width: 79px;
+	height: 45px;
+	background: #6f7278;
+	border: none;
+	margin-left: -11px;
+
+}
+/**
+ * foot
+ */
+#footer
+{
+	height: 55px;
+	background:#2f3039;
+	font: 12px 宋体;
+	color: #fff;
+	line-height: 55px;
+	padding: 0 97px;
+}
+.btp
+{
+	text-align: right;
+}
