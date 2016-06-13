@@ -13,7 +13,7 @@
      - [任务五](http://fanfan830.github.io/ife/05/task05.html)：基于任务1的HTML代码，实现一个稍微复杂的CSS代码编写
      - [任务六](http://fanfan830.github.io/ife/06/task06.html)：按照设计图，通过HTML/CSS实现一个像报纸杂志一样的页面布局排版
      - [任务七](http://fanfan830.github.io/ife/07/task07.html)：按照设计图，通过HTML/CSS实现一个产品官网
-     - 任务八：网格/栅格化布局学习与实践
+     - [任务八](http://fanfan830.github.io/ife/08/task08.html)：网格/栅格化布局学习与实践
      - 任务九 ：按照设计图，通过HTML/CSS实现一个复杂的业务系统页面
      - 任务十：学习和练习Flex布局
      - 任务十一：移动Web开发入门，按照设计稿实现一个移动端的页面
