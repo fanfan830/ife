@@ -272,7 +272,7 @@ select,input[type="date"]
 {
 	margin-right: 53px;
 }
-button
+button,.secret input[type="button"]
 {
 	width: 50px;
 	height: 25px;
